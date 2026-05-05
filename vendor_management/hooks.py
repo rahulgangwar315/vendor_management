@@ -145,6 +145,12 @@ app_license = "mit"
 # 	}
 # }
 
+doc_events = {
+    "Vendor": {
+        "on_update": "vendor_management.api.push_vendor_if_approved"
+    }
+}
+
 # Scheduled Tasks
 # ---------------
 
